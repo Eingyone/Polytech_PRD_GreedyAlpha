@@ -1,0 +1,172 @@
+\hypertarget{class_greedy}{}\doxysection{Greedy Class Reference}
+\label{class_greedy}\index{Greedy@{Greedy}}
+
+
+{\ttfamily \#include $<$Greedy.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_greedy_a916c0ab051f780c4d3ccec06f44bbf6c}{Greedy}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_greedy}{Greedy}}\+:\+: \mbox{\hyperlink{class_greedy}{Greedy}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_greedy_ae9c45ae67696348fca137b8853941988}{Greedy}} (vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ omega, short max\+Channel, float alpha)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_greedy}{Greedy}}\+:\+: \mbox{\hyperlink{class_greedy}{Greedy}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_greedy_a1c8aba15019b27ffaa52f6c2887d7293}{set\+Omega}} (vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ omega)
+\begin{DoxyCompactList}\small\item\em Sets a new list of intervals to find a solution for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_greedy_adbb2d81e37b48b72cbff4172c83b903a}{set\+Max\+Channel}} (short max\+Channel)
+\begin{DoxyCompactList}\small\item\em Sets a new max channel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_greedy_aae096f57ce5d10ef5ee60efd80ac0755}{set\+Alpha}} (float alpha)
+\begin{DoxyCompactList}\small\item\em Sets a new alpha value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_greedy_a321b2fa49815e02f82240424d5442233}{find\+Qi}} (int omega\+\_\+id)
+\begin{DoxyCompactList}\small\item\em Finds the Qi list of intervals (every interval that intersects with the current interval) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_greedy_a1f21e6d17b6f56e4128ac4fafbc20fff}{find\+Points}} ()
+\begin{DoxyCompactList}\small\item\em Finds and initiates the points of the Qi list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_greedy_ae6da71da58d312eaf03716c9d2713598}{find\+Ci}} ()
+\begin{DoxyCompactList}\small\item\em Finds the Ci list of intervals (minimal cost of the Qi list) \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_greedy_af8ea453da10e1c20fdc92f3e9b21fdd7}{exchange\+Check}} (\mbox{\hyperlink{class_interval}{Interval}} $\ast$i)
+\begin{DoxyCompactList}\small\item\em Checks if the exchange of Ci\textquotesingle{} (Ci + i\textquotesingle{}) by i is worth it. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $\ast$ $>$ \mbox{\hyperlink{class_greedy_ad04b98e9438a7d4607d8d75c9bf37d46}{solve}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_greedy_a916c0ab051f780c4d3ccec06f44bbf6c}\label{class_greedy_a916c0ab051f780c4d3ccec06f44bbf6c}} 
+\index{Greedy@{Greedy}!Greedy@{Greedy}}
+\index{Greedy@{Greedy}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{Greedy()}{Greedy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Greedy\+::\+Greedy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_greedy}{Greedy}}\+:\+: \mbox{\hyperlink{class_greedy}{Greedy}} object. 
+
+\texorpdfstring{$<$}{<} Alpha value\mbox{\Hypertarget{class_greedy_ae9c45ae67696348fca137b8853941988}\label{class_greedy_ae9c45ae67696348fca137b8853941988}} 
+\index{Greedy@{Greedy}!Greedy@{Greedy}}
+\index{Greedy@{Greedy}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{Greedy()}{Greedy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Greedy\+::\+Greedy (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$}]{omega,  }\item[{short}]{max\+Channel,  }\item[{float}]{alpha }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_greedy}{Greedy}}\+:\+: \mbox{\hyperlink{class_greedy}{Greedy}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em omega} & List of all intervals \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_greedy_af8ea453da10e1c20fdc92f3e9b21fdd7}\label{class_greedy_af8ea453da10e1c20fdc92f3e9b21fdd7}} 
+\index{Greedy@{Greedy}!exchangeCheck@{exchangeCheck}}
+\index{exchangeCheck@{exchangeCheck}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{exchangeCheck()}{exchangeCheck()}}
+{\footnotesize\ttfamily bool Greedy\+::exchange\+Check (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_interval}{Interval}} $\ast$}]{i }\end{DoxyParamCaption})}
+
+
+
+Checks if the exchange of Ci\textquotesingle{} (Ci + i\textquotesingle{}) by i is worth it. 
+
+\begin{DoxyReturn}{Returns}
+true If the exchange is worth it 
+
+false If the exchange is not worth it 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_greedy_ae6da71da58d312eaf03716c9d2713598}\label{class_greedy_ae6da71da58d312eaf03716c9d2713598}} 
+\index{Greedy@{Greedy}!findCi@{findCi}}
+\index{findCi@{findCi}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{findCi()}{findCi()}}
+{\footnotesize\ttfamily void Greedy\+::find\+Ci (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Finds the Ci list of intervals (minimal cost of the Qi list) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em point\+Id} & Id of the point in the points list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_greedy_a1f21e6d17b6f56e4128ac4fafbc20fff}\label{class_greedy_a1f21e6d17b6f56e4128ac4fafbc20fff}} 
+\index{Greedy@{Greedy}!findPoints@{findPoints}}
+\index{findPoints@{findPoints}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{findPoints()}{findPoints()}}
+{\footnotesize\ttfamily void Greedy\+::find\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Finds and initiates the points of the Qi list. 
+
+\mbox{\Hypertarget{class_greedy_a321b2fa49815e02f82240424d5442233}\label{class_greedy_a321b2fa49815e02f82240424d5442233}} 
+\index{Greedy@{Greedy}!findQi@{findQi}}
+\index{findQi@{findQi}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{findQi()}{findQi()}}
+{\footnotesize\ttfamily void Greedy\+::find\+Qi (\begin{DoxyParamCaption}\item[{int}]{omega\+\_\+id }\end{DoxyParamCaption})}
+
+
+
+Finds the Qi list of intervals (every interval that intersects with the current interval) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em omega\+\_\+id} & Id of the interval in the omega list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_greedy_aae096f57ce5d10ef5ee60efd80ac0755}\label{class_greedy_aae096f57ce5d10ef5ee60efd80ac0755}} 
+\index{Greedy@{Greedy}!setAlpha@{setAlpha}}
+\index{setAlpha@{setAlpha}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{setAlpha()}{setAlpha()}}
+{\footnotesize\ttfamily void Greedy\+::set\+Alpha (\begin{DoxyParamCaption}\item[{float}]{alpha }\end{DoxyParamCaption})}
+
+
+
+Sets a new alpha value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em alpha} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_greedy_adbb2d81e37b48b72cbff4172c83b903a}\label{class_greedy_adbb2d81e37b48b72cbff4172c83b903a}} 
+\index{Greedy@{Greedy}!setMaxChannel@{setMaxChannel}}
+\index{setMaxChannel@{setMaxChannel}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{setMaxChannel()}{setMaxChannel()}}
+{\footnotesize\ttfamily void Greedy\+::set\+Max\+Channel (\begin{DoxyParamCaption}\item[{short}]{max\+Channel }\end{DoxyParamCaption})}
+
+
+
+Sets a new max channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em max\+Channel} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_greedy_a1c8aba15019b27ffaa52f6c2887d7293}\label{class_greedy_a1c8aba15019b27ffaa52f6c2887d7293}} 
+\index{Greedy@{Greedy}!setOmega@{setOmega}}
+\index{setOmega@{setOmega}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{setOmega()}{setOmega()}}
+{\footnotesize\ttfamily void Greedy\+::set\+Omega (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$}]{omega }\end{DoxyParamCaption})}
+
+
+
+Sets a new list of intervals to find a solution for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em omega} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_greedy_ad04b98e9438a7d4607d8d75c9bf37d46}\label{class_greedy_ad04b98e9438a7d4607d8d75c9bf37d46}} 
+\index{Greedy@{Greedy}!solve@{solve}}
+\index{solve@{solve}!Greedy@{Greedy}}
+\doxysubsubsection{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $\ast$ $>$ Greedy\+::solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Poly/\+DI5/\+PRD/\+Algo\+\_\+workspace/\+Greedy\+Alpha/\+Greedy/\+Greedy/\mbox{\hyperlink{_greedy_8h}{Greedy.\+h}}\item 
+E\+:/\+Poly/\+DI5/\+PRD/\+Algo\+\_\+workspace/\+Greedy\+Alpha/\+Greedy/\+Greedy/\mbox{\hyperlink{_greedy_8cpp}{Greedy.\+cpp}}\end{DoxyCompactItemize}

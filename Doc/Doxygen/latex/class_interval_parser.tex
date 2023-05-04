@@ -1,0 +1,99 @@
+\hypertarget{class_interval_parser}{}\doxysection{Interval\+Parser Class Reference}
+\label{class_interval_parser}\index{IntervalParser@{IntervalParser}}
+
+
+{\ttfamily \#include $<$Interval\+Parser.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_interval_parser_a5c5d3ed500a32b7def85dd3aa61b334e}{Interval\+Parser}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_interval}{Interval}} Parser\+:\+: \mbox{\hyperlink{class_interval}{Interval}} Parser object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_interval_parser_ac27c6a7b520cfef74abd300fa80c6277}{$\sim$\+Interval\+Parser}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_interval}{Interval}} Parser\+:\+: \mbox{\hyperlink{class_interval}{Interval}} Parser object. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ \mbox{\hyperlink{class_interval_parser_a2b875dadbcbfef69795350e9f47cc2ee}{parse}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Parses the file and returns a vector of intervals. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interval_parser_aaf8ceb3c1a01eb0e92d787fb9382ba99}{sort\+Intervals}} (vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ \&interval\+List)
+\begin{DoxyCompactList}\small\item\em Sorts the intervals by start date. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interval_parser_a87f4711bde64b9646affb9c575f5ce9c}{origin\+To\+Zero}} (vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ \&interval\+List)
+\begin{DoxyCompactList}\small\item\em Sets the origin of the start date to 0. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_interval_parser_a5c5d3ed500a32b7def85dd3aa61b334e}\label{class_interval_parser_a5c5d3ed500a32b7def85dd3aa61b334e}} 
+\index{IntervalParser@{IntervalParser}!IntervalParser@{IntervalParser}}
+\index{IntervalParser@{IntervalParser}!IntervalParser@{IntervalParser}}
+\doxysubsubsection{\texorpdfstring{IntervalParser()}{IntervalParser()}}
+{\footnotesize\ttfamily Interval\+Parser\+::\+Interval\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_interval}{Interval}} Parser\+:\+: \mbox{\hyperlink{class_interval}{Interval}} Parser object. 
+
+\mbox{\Hypertarget{class_interval_parser_ac27c6a7b520cfef74abd300fa80c6277}\label{class_interval_parser_ac27c6a7b520cfef74abd300fa80c6277}} 
+\index{IntervalParser@{IntervalParser}!````~IntervalParser@{$\sim$IntervalParser}}
+\index{````~IntervalParser@{$\sim$IntervalParser}!IntervalParser@{IntervalParser}}
+\doxysubsubsection{\texorpdfstring{$\sim$IntervalParser()}{~IntervalParser()}}
+{\footnotesize\ttfamily Interval\+Parser\+::$\sim$\+Interval\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_interval}{Interval}} Parser\+:\+: \mbox{\hyperlink{class_interval}{Interval}} Parser object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_interval_parser_a87f4711bde64b9646affb9c575f5ce9c}\label{class_interval_parser_a87f4711bde64b9646affb9c575f5ce9c}} 
+\index{IntervalParser@{IntervalParser}!originToZero@{originToZero}}
+\index{originToZero@{originToZero}!IntervalParser@{IntervalParser}}
+\doxysubsubsection{\texorpdfstring{originToZero()}{originToZero()}}
+{\footnotesize\ttfamily void Interval\+Parser\+::origin\+To\+Zero (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ \&}]{interval\+List }\end{DoxyParamCaption})}
+
+
+
+Sets the origin of the start date to 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em interval\+List} & The list of intervals to modify \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interval_parser_a2b875dadbcbfef69795350e9f47cc2ee}\label{class_interval_parser_a2b875dadbcbfef69795350e9f47cc2ee}} 
+\index{IntervalParser@{IntervalParser}!parse@{parse}}
+\index{parse@{parse}!IntervalParser@{IntervalParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ Interval\+Parser\+::parse (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Parses the file and returns a vector of intervals. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The PATH of the file to parse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector$<$\+Interval$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interval_parser_aaf8ceb3c1a01eb0e92d787fb9382ba99}\label{class_interval_parser_aaf8ceb3c1a01eb0e92d787fb9382ba99}} 
+\index{IntervalParser@{IntervalParser}!sortIntervals@{sortIntervals}}
+\index{sortIntervals@{sortIntervals}!IntervalParser@{IntervalParser}}
+\doxysubsubsection{\texorpdfstring{sortIntervals()}{sortIntervals()}}
+{\footnotesize\ttfamily void Interval\+Parser\+::sort\+Intervals (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_interval}{Interval}} $>$ \&}]{interval\+List }\end{DoxyParamCaption})}
+
+
+
+Sorts the intervals by start date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em interval\+List} & The list of intervals to sort \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Poly/\+DI5/\+PRD/\+Algo\+\_\+workspace/\+Greedy\+Alpha/\+Greedy/\+Greedy/\mbox{\hyperlink{_interval_parser_8h}{Interval\+Parser.\+h}}\item 
+E\+:/\+Poly/\+DI5/\+PRD/\+Algo\+\_\+workspace/\+Greedy\+Alpha/\+Greedy/\+Greedy/\mbox{\hyperlink{_interval_parser_8cpp}{Interval\+Parser.\+cpp}}\end{DoxyCompactItemize}

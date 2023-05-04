@@ -1,0 +1,40 @@
+\hypertarget{_greedy_8h_source}{}\doxysection{E\+:/\+Poly/\+DI5/\+PRD/\+Algo\+\_\+workspace/\+Greedy\+Alpha/\+Greedy/\+Greedy/\+Greedy.h}
+\mbox{\hyperlink{_greedy_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_interval_8h}{Interval.h}}"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_point_8h}{Point.h}}"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_greedy}{Greedy}}\{}
+\DoxyCodeLine{00010\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00011\ \ \ \ \ vector<Interval>\ omega;\ }
+\DoxyCodeLine{00012\ \ \ \ \ vector<Interval\ *>\ solution;\ }
+\DoxyCodeLine{00013\ \ \ \ \ vector<Interval\ *>\ qi;\ }
+\DoxyCodeLine{00014\ \ \ \ \ vector<Interval\ *>\ ci;\ }
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{class_interval}{Interval}}\ *\ iPrime;\ \ }
+\DoxyCodeLine{00016\ \ \ \ \ vector<Point>\ points;\ }
+\DoxyCodeLine{00017\ \ \ \ \ vector<short>\ first;\ }
+\DoxyCodeLine{00018\ \ \ \ \ vector<short>\ last;\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{short}\ maxChannel;\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{float}\ alpha;\ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{class_greedy_a916c0ab051f780c4d3ccec06f44bbf6c}{Greedy}}();}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_greedy_a916c0ab051f780c4d3ccec06f44bbf6c}{Greedy}}(vector<Interval>\ omega,\ \textcolor{keywordtype}{short}\ maxChannel,\ \textcolor{keywordtype}{float}\ alpha);}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_greedy_a1c8aba15019b27ffaa52f6c2887d7293}{setOmega}}(vector<Interval>\ omega);}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_greedy_adbb2d81e37b48b72cbff4172c83b903a}{setMaxChannel}}(\textcolor{keywordtype}{short}\ maxChannel);}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_greedy_aae096f57ce5d10ef5ee60efd80ac0755}{setAlpha}}(\textcolor{keywordtype}{float}\ alpha);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_greedy_a321b2fa49815e02f82240424d5442233}{findQi}}(\textcolor{keywordtype}{int}\ omega\_id);}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_greedy_a1f21e6d17b6f56e4128ac4fafbc20fff}{findPoints}}();}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_greedy_ae6da71da58d312eaf03716c9d2713598}{findCi}}();}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_greedy_af8ea453da10e1c20fdc92f3e9b21fdd7}{exchangeCheck}}(\mbox{\hyperlink{class_interval}{Interval}}\ *\ i);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ vector<Interval\ *>\ \mbox{\hyperlink{class_greedy_ad04b98e9438a7d4607d8d75c9bf37d46}{solve}}();}
+\DoxyCodeLine{00036\ \};}
+
+\end{DoxyCode}

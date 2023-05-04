@@ -1,0 +1,206 @@
+\hypertarget{class_interval}{}\doxysection{Interval Class Reference}
+\label{class_interval}\index{Interval@{Interval}}
+
+
+{\ttfamily \#include $<$Interval.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_interval_ae48b9a9e9f672f81977627b609e32429}{Interval}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_interval}{Interval}}\+:\+: \mbox{\hyperlink{class_interval}{Interval}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_interval_a6a2cb6aa69bc44e7bac317637e088bba}{Interval}} (short id, long long start\+Date, long long stop\+Date, string channel, string hashcode)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_interval}{Interval}}\+:\+: \mbox{\hyperlink{class_interval}{Interval}} object. \end{DoxyCompactList}\item 
+short \mbox{\hyperlink{class_interval_a6a58d928b41acb8a4c3cb2cbf228109b}{get\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Gets the id of the interval. \end{DoxyCompactList}\item 
+long long \mbox{\hyperlink{class_interval_ac9866eb1552f3167c637779a69752854}{get\+Start\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Gets the start date of the interval. \end{DoxyCompactList}\item 
+long long \mbox{\hyperlink{class_interval_aaf90f8ac0bf72ab5a02a5a705b09d80f}{get\+Stop\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Gets the stop date of the interval. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_interval_af06f3bdd9f7d94eae29b914c798ef55c}{get\+Channel}} ()
+\begin{DoxyCompactList}\small\item\em Gets the channel of the interval. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_interval_ad5760d3cf0234ccc8afe912afd638fd8}{get\+Hashcode}} ()
+\begin{DoxyCompactList}\small\item\em Gets the hashcode of the interval. \end{DoxyCompactList}\item 
+short \mbox{\hyperlink{class_interval_a909f832f9a510eb23e69c21abbac8829}{get\+Weight}} ()
+\begin{DoxyCompactList}\small\item\em Gets the weight of the interval. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interval_ad7d32a7c6dc25edba6069dc365d832e0}{set\+Start\+Date}} (long long start\+Date)
+\begin{DoxyCompactList}\small\item\em Sets the start date of the interval. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interval_a7cecee75f3817c93d12b612742f88a90}{set\+Stop\+Date}} (long long stop\+Date)
+\begin{DoxyCompactList}\small\item\em Sets the stop date of the interval. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interval_a5dfd7cca375b2a0ddde846add948dc99}{generate\+Random\+Weight}} ()
+\begin{DoxyCompactList}\small\item\em Generates a random weight for the interval using its hashcode. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_interval_acf81b7781cc4e371d45c241b7bd903d1}{print\+Interval}} ()
+\begin{DoxyCompactList}\small\item\em Prints the interval. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_interval_ae48b9a9e9f672f81977627b609e32429}\label{class_interval_ae48b9a9e9f672f81977627b609e32429}} 
+\index{Interval@{Interval}!Interval@{Interval}}
+\index{Interval@{Interval}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{Interval()}{Interval()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Interval\+::\+Interval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_interval}{Interval}}\+:\+: \mbox{\hyperlink{class_interval}{Interval}} object. 
+
+\texorpdfstring{$<$}{<} Weight of the interval (generated randomly using the hashcode)\mbox{\Hypertarget{class_interval_a6a2cb6aa69bc44e7bac317637e088bba}\label{class_interval_a6a2cb6aa69bc44e7bac317637e088bba}} 
+\index{Interval@{Interval}!Interval@{Interval}}
+\index{Interval@{Interval}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{Interval()}{Interval()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Interval\+::\+Interval (\begin{DoxyParamCaption}\item[{short}]{id,  }\item[{long long}]{start\+Date,  }\item[{long long}]{stop\+Date,  }\item[{string}]{channel,  }\item[{string}]{hashcode }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_interval}{Interval}}\+:\+: \mbox{\hyperlink{class_interval}{Interval}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \mbox{\hyperlink{class_interval}{Interval}} id \\
+\hline
+{\em start\+Date} & \mbox{\hyperlink{class_interval}{Interval}} start date \\
+\hline
+{\em stop\+Date} & \mbox{\hyperlink{class_interval}{Interval}} stop date \\
+\hline
+{\em channel} & \mbox{\hyperlink{class_interval}{Interval}} channel \\
+\hline
+{\em hashcode} & \mbox{\hyperlink{class_interval}{Interval}} hashcode \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_interval_a5dfd7cca375b2a0ddde846add948dc99}\label{class_interval_a5dfd7cca375b2a0ddde846add948dc99}} 
+\index{Interval@{Interval}!generateRandomWeight@{generateRandomWeight}}
+\index{generateRandomWeight@{generateRandomWeight}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{generateRandomWeight()}{generateRandomWeight()}}
+{\footnotesize\ttfamily void Interval\+::generate\+Random\+Weight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Generates a random weight for the interval using its hashcode. 
+
+\mbox{\Hypertarget{class_interval_af06f3bdd9f7d94eae29b914c798ef55c}\label{class_interval_af06f3bdd9f7d94eae29b914c798ef55c}} 
+\index{Interval@{Interval}!getChannel@{getChannel}}
+\index{getChannel@{getChannel}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{getChannel()}{getChannel()}}
+{\footnotesize\ttfamily string Interval\+::get\+Channel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the channel of the interval. 
+
+\begin{DoxyReturn}{Returns}
+short Channel of the interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interval_ad5760d3cf0234ccc8afe912afd638fd8}\label{class_interval_ad5760d3cf0234ccc8afe912afd638fd8}} 
+\index{Interval@{Interval}!getHashcode@{getHashcode}}
+\index{getHashcode@{getHashcode}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{getHashcode()}{getHashcode()}}
+{\footnotesize\ttfamily string Interval\+::get\+Hashcode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the hashcode of the interval. 
+
+\begin{DoxyReturn}{Returns}
+char$\ast$ Hashcode of the interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interval_a6a58d928b41acb8a4c3cb2cbf228109b}\label{class_interval_a6a58d928b41acb8a4c3cb2cbf228109b}} 
+\index{Interval@{Interval}!getId@{getId}}
+\index{getId@{getId}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily short Interval\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the id of the interval. 
+
+\begin{DoxyReturn}{Returns}
+short Id of the interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interval_ac9866eb1552f3167c637779a69752854}\label{class_interval_ac9866eb1552f3167c637779a69752854}} 
+\index{Interval@{Interval}!getStartDate@{getStartDate}}
+\index{getStartDate@{getStartDate}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{getStartDate()}{getStartDate()}}
+{\footnotesize\ttfamily long long Interval\+::get\+Start\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the start date of the interval. 
+
+\begin{DoxyReturn}{Returns}
+long Start date of the interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interval_aaf90f8ac0bf72ab5a02a5a705b09d80f}\label{class_interval_aaf90f8ac0bf72ab5a02a5a705b09d80f}} 
+\index{Interval@{Interval}!getStopDate@{getStopDate}}
+\index{getStopDate@{getStopDate}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{getStopDate()}{getStopDate()}}
+{\footnotesize\ttfamily long long Interval\+::get\+Stop\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the stop date of the interval. 
+
+\begin{DoxyReturn}{Returns}
+long Stop date of the interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interval_a909f832f9a510eb23e69c21abbac8829}\label{class_interval_a909f832f9a510eb23e69c21abbac8829}} 
+\index{Interval@{Interval}!getWeight@{getWeight}}
+\index{getWeight@{getWeight}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{getWeight()}{getWeight()}}
+{\footnotesize\ttfamily short Interval\+::get\+Weight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the weight of the interval. 
+
+\begin{DoxyReturn}{Returns}
+short Weight of the interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interval_acf81b7781cc4e371d45c241b7bd903d1}\label{class_interval_acf81b7781cc4e371d45c241b7bd903d1}} 
+\index{Interval@{Interval}!printInterval@{printInterval}}
+\index{printInterval@{printInterval}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{printInterval()}{printInterval()}}
+{\footnotesize\ttfamily void Interval\+::print\+Interval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Prints the interval. 
+
+\mbox{\Hypertarget{class_interval_ad7d32a7c6dc25edba6069dc365d832e0}\label{class_interval_ad7d32a7c6dc25edba6069dc365d832e0}} 
+\index{Interval@{Interval}!setStartDate@{setStartDate}}
+\index{setStartDate@{setStartDate}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{setStartDate()}{setStartDate()}}
+{\footnotesize\ttfamily void Interval\+::set\+Start\+Date (\begin{DoxyParamCaption}\item[{long long}]{start\+Date }\end{DoxyParamCaption})}
+
+
+
+Sets the start date of the interval. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Date} & Start date of the interval \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interval_a7cecee75f3817c93d12b612742f88a90}\label{class_interval_a7cecee75f3817c93d12b612742f88a90}} 
+\index{Interval@{Interval}!setStopDate@{setStopDate}}
+\index{setStopDate@{setStopDate}!Interval@{Interval}}
+\doxysubsubsection{\texorpdfstring{setStopDate()}{setStopDate()}}
+{\footnotesize\ttfamily void Interval\+::set\+Stop\+Date (\begin{DoxyParamCaption}\item[{long long}]{stop\+Date }\end{DoxyParamCaption})}
+
+
+
+Sets the stop date of the interval. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stop\+Date} & Stop date of the interval \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Poly/\+DI5/\+PRD/\+Algo\+\_\+workspace/\+Greedy\+Alpha/\+Greedy/\+Greedy/\mbox{\hyperlink{_interval_8h}{Interval.\+h}}\item 
+E\+:/\+Poly/\+DI5/\+PRD/\+Algo\+\_\+workspace/\+Greedy\+Alpha/\+Greedy/\+Greedy/\mbox{\hyperlink{_interval_8cpp}{Interval.\+cpp}}\end{DoxyCompactItemize}

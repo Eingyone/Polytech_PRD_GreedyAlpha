@@ -1,0 +1,206 @@
+\begin{theindex}
+
+  \item {$\sim$IntervalParser}
+    \subitem {IntervalParser}, \hyperpage{21}
+  \item {$\sim$SolutionParser}
+    \subitem {SolutionParser}, \hyperpage{25}
+  \item {1\_generate\_latency}, \hyperpage{9}
+    \subitem {check\_timestamp\_valid}, \hyperpage{9}
+    \subitem {checking}, \hyperpage{9}
+    \subitem {convert\_xlm\_file\_to\_date}, \hyperpage{9}
+    \subitem {data\_list}, \hyperpage{10}
+    \subitem {main}, \hyperpage{10}
+    \subitem {nomarlizeText}, \hyperpage{10}
+    \subitem {read\_xml}, \hyperpage{10}
+
+  \indexspace
+
+  \item {check\_file}
+    \subitem {common}, \hyperpage{11}
+  \item {check\_timestamp\_valid}
+    \subitem {1\_generate\_latency}, \hyperpage{9}
+  \item {checking}
+    \subitem {1\_generate\_latency}, \hyperpage{9}
+  \item {common}, \hyperpage{10}
+    \subitem {check\_file}, \hyperpage{11}
+    \subitem {get\_channel\_name\_by\_code}, \hyperpage{11}
+    \subitem {map\_channel}, \hyperpage{11}
+  \item {convert\_xlm\_file\_to\_date}
+    \subitem {1\_generate\_latency}, \hyperpage{9}
+
+  \indexspace
+
+  \item {data\_list}
+    \subitem {1\_generate\_latency}, \hyperpage{10}
+
+  \indexspace
+
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Greedy.cpp}, 
+		\hyperpage{27}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Greedy.h}, 
+		\hyperpage{27}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Interval.cpp}, 
+		\hyperpage{28}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Interval.h}, 
+		\hyperpage{28}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/IntervalParser.cpp}, 
+		\hyperpage{29}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/IntervalParser.h}, 
+		\hyperpage{29}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/main.cpp}, 
+		\hyperpage{30}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Point.cpp}, 
+		\hyperpage{31}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Point.h}, 
+		\hyperpage{31}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Python/1\_generate\_latency.py}, 
+		\hyperpage{31}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Python/common.py}, 
+		\hyperpage{32}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/Python/README.md}, 
+		\hyperpage{32}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/SolutionParser.cpp}, 
+		\hyperpage{32}
+  \item {E:/Poly/DI5/PRD/Algo\_workspace/GreedyAlpha/Greedy/Greedy/SolutionParser.h}, 
+		\hyperpage{32}
+  \item {exchangeCheck}
+    \subitem {Greedy}, \hyperpage{14}
+
+  \indexspace
+
+  \item {findCi}
+    \subitem {Greedy}, \hyperpage{14}
+  \item {findPoints}
+    \subitem {Greedy}, \hyperpage{15}
+  \item {findQi}
+    \subitem {Greedy}, \hyperpage{15}
+
+  \indexspace
+
+  \item {generateRandomWeight}
+    \subitem {Interval}, \hyperpage{17}
+  \item {get\_channel\_name\_by\_code}
+    \subitem {common}, \hyperpage{11}
+  \item {getChannel}
+    \subitem {Interval}, \hyperpage{18}
+  \item {getCost}
+    \subitem {Point}, \hyperpage{23}
+  \item {getHashcode}
+    \subitem {Interval}, \hyperpage{18}
+  \item {getId}
+    \subitem {Interval}, \hyperpage{18}
+    \subitem {Point}, \hyperpage{23}
+  \item {getMinInterval}
+    \subitem {Point}, \hyperpage{24}
+  \item {getStartDate}
+    \subitem {Interval}, \hyperpage{19}
+  \item {getStopDate}
+    \subitem {Interval}, \hyperpage{19}
+  \item {getWeight}
+    \subitem {Interval}, \hyperpage{19}
+  \item {Greedy}, \hyperpage{13}
+    \subitem {exchangeCheck}, \hyperpage{14}
+    \subitem {findCi}, \hyperpage{14}
+    \subitem {findPoints}, \hyperpage{15}
+    \subitem {findQi}, \hyperpage{15}
+    \subitem {Greedy}, \hyperpage{13, 14}
+    \subitem {setAlpha}, \hyperpage{15}
+    \subitem {setMaxChannel}, \hyperpage{15}
+    \subitem {setOmega}, \hyperpage{16}
+    \subitem {solve}, \hyperpage{16}
+
+  \indexspace
+
+  \item {Interval}, \hyperpage{16}
+    \subitem {generateRandomWeight}, \hyperpage{17}
+    \subitem {getChannel}, \hyperpage{18}
+    \subitem {getHashcode}, \hyperpage{18}
+    \subitem {getId}, \hyperpage{18}
+    \subitem {getStartDate}, \hyperpage{19}
+    \subitem {getStopDate}, \hyperpage{19}
+    \subitem {getWeight}, \hyperpage{19}
+    \subitem {Interval}, \hyperpage{17}
+    \subitem {printInterval}, \hyperpage{19}
+    \subitem {setStartDate}, \hyperpage{20}
+    \subitem {setStopDate}, \hyperpage{20}
+  \item {IntervalParser}, \hyperpage{20}
+    \subitem {$\sim$IntervalParser}, \hyperpage{21}
+    \subitem {IntervalParser}, \hyperpage{21}
+    \subitem {originToZero}, \hyperpage{21}
+    \subitem {parse}, \hyperpage{22}
+    \subitem {sortIntervals}, \hyperpage{22}
+  \item {IntervalParser.h}
+    \subitem {IntervalParser8H}, \hyperpage{29}
+  \item {IntervalParser8H}
+    \subitem {IntervalParser.h}, \hyperpage{29}
+
+  \indexspace
+
+  \item {main}
+    \subitem {1\_generate\_latency}, \hyperpage{10}
+    \subitem {main.cpp}, \hyperpage{30}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{30}
+  \item {map\_channel}
+    \subitem {common}, \hyperpage{11}
+
+  \indexspace
+
+  \item {nomarlizeText}
+    \subitem {1\_generate\_latency}, \hyperpage{10}
+
+  \indexspace
+
+  \item {originToZero}
+    \subitem {IntervalParser}, \hyperpage{21}
+
+  \indexspace
+
+  \item {parse}
+    \subitem {IntervalParser}, \hyperpage{22}
+  \item {Point}, \hyperpage{22}
+    \subitem {getCost}, \hyperpage{23}
+    \subitem {getId}, \hyperpage{23}
+    \subitem {getMinInterval}, \hyperpage{24}
+    \subitem {Point}, \hyperpage{23}
+    \subitem {setCost}, \hyperpage{24}
+    \subitem {setMinInterval}, \hyperpage{24}
+  \item {printInterval}
+    \subitem {Interval}, \hyperpage{19}
+
+  \indexspace
+
+  \item {read\_xml}
+    \subitem {1\_generate\_latency}, \hyperpage{10}
+
+  \indexspace
+
+  \item {setAlpha}
+    \subitem {Greedy}, \hyperpage{15}
+  \item {setCost}
+    \subitem {Point}, \hyperpage{24}
+  \item {setMaxChannel}
+    \subitem {Greedy}, \hyperpage{15}
+  \item {setMinInterval}
+    \subitem {Point}, \hyperpage{24}
+  \item {setOmega}
+    \subitem {Greedy}, \hyperpage{16}
+  \item {setStartDate}
+    \subitem {Interval}, \hyperpage{20}
+  \item {setStopDate}
+    \subitem {Interval}, \hyperpage{20}
+  \item {SolutionParser}, \hyperpage{25}
+    \subitem {$\sim$SolutionParser}, \hyperpage{25}
+    \subitem {SolutionParser}, \hyperpage{25}
+    \subitem {writeCSV}, \hyperpage{25}
+  \item {solve}
+    \subitem {Greedy}, \hyperpage{16}
+  \item {sortIntervals}
+    \subitem {IntervalParser}, \hyperpage{22}
+
+  \indexspace
+
+  \item {writeCSV}
+    \subitem {SolutionParser}, \hyperpage{25}
+
+\end{theindex}
