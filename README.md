@@ -1,6 +1,9 @@
 # Polytech_PRD_GreedyAlpha
 Ce projet a été réalisé dans le cadre d'un projet en 5ième année d'études à Polytech Tours. Une station d’enregistrement est mise en place pour stocker le contenu diffusé sur les chaînes françaises. L’objectif est de stocker les diffusions afin d’y effectuer divers traitements (du fact checking pendant les campagnes présidentielles par exemple). La station TV n'a que 8 carte d'acquisition, il faut donc prendre une décision, car on ne peut enregistrer que 8 programmes simultanément. L'objectif de ce projet est d'implémenter un algorithme GreedyAlpha afin de produire une liste d'intervalles de temps à enregistrer.
 
+L'algorithme implémanté est basé sur l'article "Interval selection : Applications, algorithms, and lower bounds" de Thomas Erlebach a et Frits C.R. Spieksma b,∗ :
+http://www.cs.toronto.edu/tss/files/papers/1-s2.0-S0196677402002912-main.pdf
+
 Voici le lien de la base de donnée : http://mathieu.delalandre.free.fr/projects/stvd/pms/
 
 Voici le lien du site miroir : https://dataset-stvd.univ-tours.fr/pms/index.html
